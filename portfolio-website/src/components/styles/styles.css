@@ -215,6 +215,14 @@ pre {
 }
 
 /* portfolio */
+
+.portfolio {
+  height: 400px;
+  background-color: var(--primary-color);
+  color: #fff;
+  position: relative;
+}
+
 .portfolio-head img,
 .docs-head img {
   width: 200px;
@@ -227,8 +235,14 @@ pre {
 }
 
 .portfolio-main .card {
+  height: 440px;
   margin-right: 20px;
   text-align: center;
+  position: relative;
+  z-index: 100;
+  justify-content: center;
+  justify-self: flex-end;
+  animation: slideInFromTop 1s ease-in;
 }
 
 .portfolio-main .grid {
@@ -237,7 +251,23 @@ pre {
 
 .portfolio-main img {
   width: 420px;
+  width: 310px;
   justify-self: flex-end;
+}
+
+.portfolio::before,
+.portfolio::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  bottom: -70px;
+  right: 0;
+  left: 0;
+  background: #fff;
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
 }
 
 /* .portfolio-main .grid > *:first-child {
@@ -267,6 +297,23 @@ pre {
 
 .docs-main a:hover {
   font-weight: bold;
+}
+
+/* Contact */
+
+.contact::before,
+.contact::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  bottom: -70px;
+  right: 0;
+  left: 0;
+  background: #fff;
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
 }
 
 /* Footer */
