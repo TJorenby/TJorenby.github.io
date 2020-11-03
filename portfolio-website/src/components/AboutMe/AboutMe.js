@@ -1,29 +1,40 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
+//Style Imports
+import { useSpring, animated } from "react-spring";
+
 function AboutMe() {
+  const trans = useSpring({ opacity: 1, from: { opacity: 0 } });
+
   return (
     <>
-      <section className="showcase">
-        <div className="container grid">
-          <div className="showcase-text">
-            <h2>Hi, Everyone!</h2>
-            <p>
-              I'm a professional musician and customer experience leader turned
-              software engineer with a passion for leveraging technology to do
-              what I love most; creating world-class experiences and solving
-              problems.
-            </p>
-            <Link className="link btn btn-outline" to="/features">
-              Read More
-            </Link>
-          </div>
+      <animated.div style={trans}>
+        <section className="showcase">
+          <div className="container grid">
+            <div className="showcase-text">
+              <h2>Hi, Everyone!</h2>
+              <p>
+                I'm a professional musician and customer experience leader
+                turned software engineer with a passion for leveraging
+                technology to do what I love most; creating memorable
+                experiences and solving problems.
+              </p>
+              <p>
+                HTML | CSS | JavaScript | jQuery | React | Node.js | Express |
+                Redux | PostgreSQL | Github
+              </p>
+              <Link className="link btn btn-outline" to="/portfolio">
+                My Work
+              </Link>
+            </div>
 
-          <div className="about-headshot card">
-            <img src="./images/headshot-nov2020-resize.jpg" alt="" />
+            <div className="about-headshot card">
+              <img src="./images/headshot-nov2020-resize.jpg" alt="" />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </animated.div>
     </>
   );
 }

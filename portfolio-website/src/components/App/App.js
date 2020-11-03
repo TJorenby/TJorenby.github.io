@@ -7,17 +7,28 @@ import Footer from "../Footer/Footer";
 import HeaderNav from "../HeaderNav/HeaderNav";
 import Portfolio from "../Portfolio/Portfolio";
 
+// Style imports
 import "../styles/styles.css";
 import "../styles/utilities.css";
+import { useSpring, animated } from "react-spring";
 
 function App() {
+  const trans = useSpring({ opacity: 1, from: { opacity: 0 } });
+
   return (
     <Router>
       <div className="App">
         <HeaderNav />
-        <Route exact path="/" component={AboutMe} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
+        <animated.div style={trans}>
+          <Route exact path="/" component={AboutMe} />
+        </animated.div>
+        <animated.div style={trans}>
+          <Route exact path="/portfolio" component={Portfolio} />
+        </animated.div>
+        <animated.div style={trans}>
+          <Route exact path="/contact" component={Contact} />
+        </animated.div>
+
         {/* <Footer /> */}
       </div>
     </Router>

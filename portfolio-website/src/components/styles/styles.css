@@ -105,7 +105,7 @@ pre {
 }
 
 .showcase-text {
-  animation: slideInFromTop 1s ease-in;
+  animation: slideInFromTop 0.8s ease-in;
 }
 
 .about-headshot {
@@ -117,7 +117,7 @@ pre {
   z-index: 100;
   justify-content: center;
   justify-self: flex-end;
-  animation: slideInFromRight 1s ease-in;
+  animation: slideInFromRight 0.8s ease-in;
 }
 
 .about-headshot img {
@@ -210,8 +210,9 @@ pre {
   margin-bottom: 10px;
 }
 
-.languages .card:hover {
-  transform: translateY(-15px);
+.portfolio .card:hover {
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 /* portfolio */
@@ -235,14 +236,14 @@ pre {
 }
 
 .portfolio-main .card {
-  height: 440px;
+  height: 420px;
   margin-right: 20px;
   text-align: center;
   position: relative;
   z-index: 100;
   justify-content: center;
   justify-self: flex-end;
-  animation: slideInFromTop 1s ease-in;
+  /* animation: slideInFromTop 1s ease-in; */
 }
 
 .portfolio-main .grid {
@@ -253,6 +254,7 @@ pre {
   width: 420px;
   width: 310px;
   justify-self: flex-end;
+  border-radius: 1rem;
 }
 
 .portfolio::before,
@@ -317,8 +319,14 @@ pre {
 }
 
 /* Footer */
-.footer .social a {
+.social a i {
   margin: 0 10px;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.social {
+  color: #fff;
 }
 
 /* Animations */
