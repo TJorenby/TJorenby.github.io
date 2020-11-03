@@ -1,5 +1,14 @@
 import React, { useState } from "react";
 
+// Image Imports
+import feedbackLoopGif from "./PortfolioImages/demo_feedback_loop.gif";
+import feedbackLoopImg from "./PortfolioImages/Feedback-loop.png";
+import imageGalleryImg from "./PortfolioImages/image-gallery.png";
+import imageGalleryGif from "./PortfolioImages/image-gallery-gif.gif";
+import movieGalleryGif from "./PortfolioImages/movie-gallery-gif.gif";
+import movieGalleryImg from "./PortfolioImages/movie-gallery.png";
+import myTodayImg from "./PortfolioImages/myToday-app.png";
+
 // Style Imports
 import Modal from "@material-ui/core/Modal";
 import { makeStyles } from "@material-ui/core/styles";
@@ -54,7 +63,7 @@ function Portfolio() {
             <div className="card">
               <p className="lead text-bold md">myToday</p>
               <img
-                src="./images/myToday-app.png"
+                src={myTodayImg}
                 alt=""
                 onClick={() => setModalOpenA(true)}
               />
@@ -75,7 +84,7 @@ function Portfolio() {
             <div className="card">
               <p className="lead text-bold md">Feedback Survey</p>
               <img
-                src="./images/Feedback-loop.png"
+                src={feedbackLoopImg}
                 alt=""
                 onClick={() => setModalOpenB(true)}
               />
@@ -95,14 +104,14 @@ function Portfolio() {
             <div className="card">
               <p className="lead text-bold md">Image Gallery</p>
               <img
-                src="./images/image-gallery.png"
+                src={imageGalleryImg}
                 alt=""
                 onClick={() => setModalOpenC(true)}
               />
               <p>React | Node.js | Express | PostgreSQL</p>
               <p className="sm">
-                A feedback form that allows users to answer questions in the
-                form of "star" ratings as well as comments.
+                An app that allows users to add images, "love" them, or "delete"
+                them.
               </p>
               <a
                 href="https://github.com/TJorenby/react-gallery"
@@ -115,7 +124,7 @@ function Portfolio() {
             <div className="card">
               <p className="lead text-bold md">Movie Carousel</p>
               <img
-                src="./images/movie-carousel.png"
+                src={movieGalleryImg}
                 alt=""
                 onClick={() => setModalOpenD(true)}
               />
@@ -146,19 +155,19 @@ function Portfolio() {
 
         <Modal open={modalOpenB} onClose={() => setModalOpenB(false)}>
           <div style={modalStyle} className={classes.paper}>
-            <img src="./images/demo_feedback_loop.gif" alt="" />
+            <img src={feedbackLoopGif} alt="" />
           </div>
         </Modal>
 
         <Modal open={modalOpenC} onClose={() => setModalOpenC(false)}>
           <div style={modalStyle} className={classes.paper}>
-            <img src="./images/image-gallery-gif.gif" alt="" />
+            <img src={imageGalleryGif} alt="" />
           </div>
         </Modal>
 
         <Modal open={modalOpenD} onClose={() => setModalOpenD(false)}>
           <div style={modalStyle} className={classes.paper}>
-            <img src="./images/movie-gallery-gif.gif" alt="" />
+            <img src={movieGalleryGif} alt="" />
           </div>
         </Modal>
       </div>

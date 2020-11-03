@@ -1,6 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
+//Image Imports
+import headshot from "./AboutMeImages/headshot-nov2020-resize.jpg";
+
 //Style Imports
 import { useSpring, animated } from "react-spring";
 
@@ -30,7 +33,7 @@ function AboutMe() {
             </div>
 
             <div className="about-headshot card">
-              <img src="./images/headshot-nov2020-resize.jpg" alt="" />
+              <img src={headshot} alt="headshot" />
             </div>
           </div>
         </section>
