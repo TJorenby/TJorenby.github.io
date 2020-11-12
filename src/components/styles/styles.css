@@ -98,11 +98,11 @@ pre {
   margin: 20px 0;
 }
 
-/* .portfolio .grid {
+.showcase .grid {
   overflow: visible;
   grid-template-columns: 55% auto;
   gap: 30px;
-} */
+}
 
 .showcase-text {
   animation: slideInFromTop 0.8s ease-in;
