@@ -53,7 +53,7 @@ function Portfolio() {
       <div className="portfolio">
         <section className="portfolio-head bg-primary py-3">
           <div className="container">
-            <h1 className="md">Projects</h1>
+            <h1 className="md text-center">Projects</h1>
           </div>
         </section>
 
@@ -67,7 +67,7 @@ function Portfolio() {
                 alt=""
                 onClick={() => setModalOpenA(true)}
               />
-              <p>React | Node.js | Express | Redux | PostgreSQL</p>
+              {/* <p>React | Node.js | Express | Redux | PostgreSQL</p> */}
               <p className="sm">
                 A styled-for-mobile app designed to allow users to take photos
                 via their webcam or upload them from their computer, provide a
@@ -88,7 +88,7 @@ function Portfolio() {
                 alt=""
                 onClick={() => setModalOpenB(true)}
               />
-              <p>React | Node.js | Express | Redux | PostgreSQL</p>
+              {/* <p>React | Node.js | Express | Redux | PostgreSQL</p> */}
               <p className="sm">
                 A feedback form that allows users to answer questions in the
                 form of "star" ratings as well as comments.
@@ -108,7 +108,7 @@ function Portfolio() {
                 alt=""
                 onClick={() => setModalOpenC(true)}
               />
-              <p>React | Node.js | Express | PostgreSQL</p>
+              {/* <p>React | Node.js | Express | PostgreSQL</p> */}
               <p className="sm">
                 An app that allows users to add images, "love" them, or "delete"
                 them.
@@ -128,7 +128,7 @@ function Portfolio() {
                 alt=""
                 onClick={() => setModalOpenD(true)}
               />
-              <p>React | Node.js | Express | Redux | PostgreSQL</p>
+              {/* <p>React | Node.js | Express | Redux | PostgreSQL</p> */}
               <p className="sm">
                 A movie library that allows users to browse titles, learn more
                 about each title, and upload new titles to a database.
