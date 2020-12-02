@@ -1,9 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import AboutMe from "../AboutMe/AboutMe";
 import Contact from "../Contact/Contact";
-import Footer from "../Footer/Footer";
 import HeaderNav from "../HeaderNav/HeaderNav";
 import Portfolio from "../Portfolio/Portfolio";
 

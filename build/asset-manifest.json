@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.ae3e3b76.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.d85f005f.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.d85f005f.chunk.js.map",
-    "runtime-main.js": "/portfolio-website/static/js/runtime-main.aa5baaa1.js",
-    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.aa5baaa1.js.map",
-    "static/js/2.ea560827.chunk.js": "/portfolio-website/static/js/2.ea560827.chunk.js",
-    "static/js/2.ea560827.chunk.js.map": "/portfolio-website/static/js/2.ea560827.chunk.js.map",
-    "static/js/3.6122dcb8.chunk.js": "/portfolio-website/static/js/3.6122dcb8.chunk.js",
-    "static/js/3.6122dcb8.chunk.js.map": "/portfolio-website/static/js/3.6122dcb8.chunk.js.map",
+    "main.css": "/portfolio-website/static/css/main.ebd47fd4.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.43f395a5.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.43f395a5.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.195a1f79.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.195a1f79.js.map",
+    "static/js/2.ac9eab9c.chunk.js": "/portfolio-website/static/js/2.ac9eab9c.chunk.js",
+    "static/js/2.ac9eab9c.chunk.js.map": "/portfolio-website/static/js/2.ac9eab9c.chunk.js.map",
+    "static/js/3.60be186b.chunk.js": "/portfolio-website/static/js/3.60be186b.chunk.js",
+    "static/js/3.60be186b.chunk.js.map": "/portfolio-website/static/js/3.60be186b.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "static/css/main.ae3e3b76.chunk.css.map": "/portfolio-website/static/css/main.ae3e3b76.chunk.css.map",
-    "static/js/2.ea560827.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.ea560827.chunk.js.LICENSE.txt"
+    "static/css/main.ebd47fd4.chunk.css.map": "/portfolio-website/static/css/main.ebd47fd4.chunk.css.map",
+    "static/js/2.ac9eab9c.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.ac9eab9c.chunk.js.LICENSE.txt",
+    "static/media/Feedback-loop.c85cc29f.png": "/portfolio-website/static/media/Feedback-loop.c85cc29f.png",
+    "static/media/demo_feedback_loop.f6685880.gif": "/portfolio-website/static/media/demo_feedback_loop.f6685880.gif",
+    "static/media/headshot-nov2020-resize.f3c097f2.jpg": "/portfolio-website/static/media/headshot-nov2020-resize.f3c097f2.jpg",
+    "static/media/image-gallery-gif.87f5ebe6.gif": "/portfolio-website/static/media/image-gallery-gif.87f5ebe6.gif",
+    "static/media/image-gallery.89c8d270.png": "/portfolio-website/static/media/image-gallery.89c8d270.png",
+    "static/media/movie-gallery-gif.9e3575ea.gif": "/portfolio-website/static/media/movie-gallery-gif.9e3575ea.gif",
+    "static/media/movie-gallery.abadf980.png": "/portfolio-website/static/media/movie-gallery.abadf980.png",
+    "static/media/myToday-app.9da3490d.png": "/portfolio-website/static/media/myToday-app.9da3490d.png",
+    "static/media/theWeather-demo.500562e7.gif": "/portfolio-website/static/media/theWeather-demo.500562e7.gif",
+    "static/media/theWeather.01f4fa49.png": "/portfolio-website/static/media/theWeather.01f4fa49.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa5baaa1.js",
-    "static/js/2.ea560827.chunk.js",
-    "static/css/main.ae3e3b76.chunk.css",
-    "static/js/main.d85f005f.chunk.js"
+    "static/js/runtime-main.195a1f79.js",
+    "static/js/2.ac9eab9c.chunk.js",
+    "static/css/main.ebd47fd4.chunk.css",
+    "static/js/main.43f395a5.chunk.js"
   ]
 }

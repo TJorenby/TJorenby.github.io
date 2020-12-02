@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -31,7 +31,7 @@ function Footer() {
                 </li>
               </ul>
             </nav>
-            <div className="social">
+            {/* <div className="social">
               <a href="#">
                 <i className="fab fa-github fa-2x"></i>
               </a>
@@ -44,7 +44,7 @@ function Footer() {
               <a href="#">
                 <i className="fab fa-twitter fa-2x"></i>
               </a>
-            </div>
+            </div> */}
           </div>
         </footer>
       </Router>

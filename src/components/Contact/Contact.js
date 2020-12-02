@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 //Style Imports
 import { useSpring, animated } from "react-spring";
@@ -18,16 +17,25 @@ function Contact() {
         <section className="portfolio">
           <div className="container grid grid-3">
             <div className="social">
-              <a href="https://github.com/TJorenby/" target="_blank">
+              <a
+                href="https://github.com/TJorenby/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-github fa-3x i"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/tylerjorenby/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-linkedin fa-3x i"></i>
               </a>
-              <a href="https://www.instagram.com/tjorenby/" target="_blank">
+              <a
+                href="https://www.instagram.com/tjorenby/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-instagram fa-3x i"></i>
               </a>
             </div>
