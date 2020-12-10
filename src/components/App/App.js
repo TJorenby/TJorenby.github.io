@@ -9,6 +9,7 @@ import Portfolio from "../Portfolio/Portfolio";
 // Style imports
 import "../styles/styles.css";
 import "../styles/utilities.css";
+import "../styles/media.css";
 import { useSpring, animated } from "react-spring";
 
 function App() {

@@ -12,7 +12,7 @@ function HeaderNav() {
             <ul>
               <li className="link-list">
                 <Link className="link" to="/">
-                  About Me
+                  About
                 </Link>
               </li>
               <li>

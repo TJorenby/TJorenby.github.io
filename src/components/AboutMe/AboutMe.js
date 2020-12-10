@@ -25,7 +25,7 @@ function AboutMe() {
               </p>
               <p>
                 HTML | CSS | JavaScript | jQuery | React | Node.js | Express |
-                Redux | PostgreSQL | Github
+                Redux | RESTful API | PostgreSQL | Github
               </p>
               <Link className="link btn btn-outline" to="/portfolio">
                 My Work

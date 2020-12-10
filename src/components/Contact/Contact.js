@@ -15,7 +15,7 @@ function Contact() {
           </div>
         </section>
         <section className="portfolio">
-          <div className="container grid grid-3">
+          <div className="container">
             <div className="social">
               <a
                 href="https://github.com/TJorenby/"
